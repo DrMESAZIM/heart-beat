@@ -1,0 +1,22 @@
+
+/* just some  styling*/
+body { 
+  text-align: center; 
+
+}
+
+/* heart div class - in html i used just a simple html simbol entity for heart sign, you can use text or whatever u want*/
+
+.heart {
+  font-size: 150px;
+  color: #e00;
+  animation: beat .25s infinite alternate;
+  transform-origin: center;
+}
+
+/* Heart beat animation */
+@keyframes beat{
+  to { transform: scale(1.4); }
+}
+
+
